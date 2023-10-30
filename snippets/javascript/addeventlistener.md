@@ -19,14 +19,14 @@
 
 ```javascript
 // declare and assign variable for button. use querySelector, getElementById
-const userBtn = document.querySelector("#user__btn");
+const userBtn = document.querySelector('#user__btn');
 
 /* apply addEventListener to button variable. the event we are 'listening' for
 is a 'click' on the button. once the user clicks a function will be triggered */
-userBtn.addEventListener("click", () => {
+userBtn.addEventListener('click', () => {
   /* define commands or actions to take place when the function is triggered. in
   our example when the user clicks the button 'start!' will log to the console */
-  console.log("Start!");
+  console.log('Start!');
 });
 ```
 

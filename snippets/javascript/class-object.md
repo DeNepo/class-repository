@@ -24,27 +24,27 @@ class Add {
   In constructor, `this` refers to the object that is being constructed/created.
  */
   print() {
-    let finalString = "";
+    let finalString = '';
     for (let index = 0; index < this.words.length; index++) {
-      finalString += "$" + this.words[index];
+      finalString += '$' + this.words[index];
     }
     /* The JavaScript `this` keyword refers to the object it belongs to. Here, in print(), `this` refers to the object that calls print().*/
-    finalString += "$";
+    finalString += '$';
     console.log(finalString);
   }
 }
 
-const test1 = new Add("hehe", "hoho", "haha", "hihi", "huhu");
-const test2 = new Add("this", "is", "awesome");
+const test1 = new Add('hehe', 'hoho', 'haha', 'hihi', 'huhu');
+const test2 = new Add('this', 'is', 'awesome');
 const test3 = new Add(
-  "lorem",
-  "ipsum",
-  "dolor",
-  "sit",
-  "amet",
-  "consectetur",
-  "adipiscing",
-  "elit"
+  'lorem',
+  'ipsum',
+  'dolor',
+  'sit',
+  'amet',
+  'consectetur',
+  'adipiscing',
+  'elit',
 );
 test1.print();
 test2.print();

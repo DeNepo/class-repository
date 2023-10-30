@@ -1,6 +1,6 @@
 {
   "language": "en",
-  "words": [],
+  "words": ["Loruki", "Nepo", "randomizer"],
   "ignorePaths": [
     "node_modules/**",
     "student-bios/**",

@@ -6,9 +6,9 @@ lecture**.
 You are expected to **study the assigned prep work** _**before**_ **arriving**.
 Prep work will cover the theory you need in order to dive into the exercises on
 Sunday. Most of your time on Sundays will be in small groups working on a set of
-exercises with the support of a coach. **DeNepo is a majority self-study course.**
-Your coach will be there to help out but they will not explain everything or
-solve the exercises for you.
+exercises with the support of a coach. **DeNepo is a majority self-study
+course.** Your coach will be there to help out but they will not explain
+everything or solve the exercises for you.
 
 _You will not cover the whole week's material on Sunday._ In Sunday Classes you
 will cover just enough of the week's trickiest concepts to get you ready for the

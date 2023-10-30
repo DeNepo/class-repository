@@ -9,8 +9,8 @@
  */
 
 function alphabetPosition(text) {
-  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-  const textArr = text.toUpperCase().split("");
+  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  const textArr = text.toUpperCase().split('');
   const alphabetObj = {};
   const result = [];
   for (let char of alphabet) {
@@ -19,7 +19,7 @@ function alphabetPosition(text) {
   for (let letter of textArr) {
     if (alphabet.includes(letter)) result.push(alphabetObj[letter]);
   }
-  return result.join(" ");
+  return result.join(' ');
 }
 
 console.log(alphabetPosition("The sunset sets at twelve o' clock."));

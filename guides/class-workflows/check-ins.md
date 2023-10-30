@@ -2,9 +2,9 @@
 
 You will be required to create a `check-in` issue for each module. These
 check-ins are how you will share your individual progress with your classmates.
-Coaches, peers and your academic team will read your check-in to know how we can help you.
-Coaches will also use your Thursday Check-Ins to prepare for review calls and
-Sunday Class.
+Coaches, peers and your academic team will read your check-in to know how we can
+help you. Coaches will also use your Thursday Check-Ins to prepare for review
+calls and Sunday Class.
 
 ## Module Check-in Issue Checklist
 

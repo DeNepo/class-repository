@@ -5,18 +5,18 @@ learned how to study the right way, even after years of university in some
 cases! In this chapter we will show you some of the most important strategies to
 learn in a way that is much more time efficient.
 
-As this course is very demanding, this is critical to get through
-the program successfully. In fact, many successful experts that require focus
-and concentration for their craft (programmers, writers, artists, scientists,
+As this course is very demanding, this is critical to get through the program
+successfully. In fact, many successful experts that require focus and
+concentration for their craft (programmers, writers, artists, scientists,
 craftsmen, etc.) share one thing in common: they are very serious about ​how
 ​they learn. This chapter will give you a short introduction into how you can
 study most effectively.
 
 - [Planning](#planning)
-- [Don’t just read, code it!](#Don-t-just-read--code-it)
-- [Sleep, Breaks and Exercise](#Sleep--Breaks-and-Exercise)
+- [Don’t just read, code it!](#dont-just-read-code-it)
+- [Sleep, Breaks and Exercise](#sleep-breaks-and-exercise)
 - [Distractions](#distractions)
-- [How to become a pro at learning](#How-to-become-a-pro-at-learning)
+- [How to become a pro at learning](#how-to-become-a-pro-at-learning)
 
 ## Planning
 
@@ -119,7 +119,6 @@ programming you feel way more satisfied as a result.
 To reach this level of optimal concentration and create a state of flow,
 distractions should be shut out as much as possible. The two most common enemies
 are described below.
-
 
 ### Challenge number 1: Social Media & Phone
 

@@ -44,11 +44,11 @@ function difference1(arr1, arr2) {
   return Array.from(set3); //way1: convert Set to Array
   // return [...set3];    // way2: convert Set to Array
 }
-console.log("\nTest1");
-console.log("Example 1:\n", difference1([2, 1], [2, 3])); //[ 1 ]
+console.log('\nTest1');
+console.log('Example 1:\n', difference1([2, 1], [2, 3])); //[ 1 ]
 console.log(
-  "Example 2:\n",
-  difference1([1, 2, 1, "abc", "3", null, 3, undefined], [2, 3]) //[ 1, 'abc', '3', null, undefined ]
+  'Example 2:\n',
+  difference1([1, 2, 1, 'abc', '3', null, 3, undefined], [2, 3]), //[ 1, 'abc', '3', null, undefined ]
 );
 ```
 
@@ -57,11 +57,11 @@ console.log(
 function difference2(arr1, arr2) {
   return [...new Set(arr1)].filter((x) => !new Set(arr2).has(x));
 }
-console.log("\nTest2");
-console.log("Example 1:\n", difference2([2, 1], [2, 3]));
+console.log('\nTest2');
+console.log('Example 1:\n', difference2([2, 1], [2, 3]));
 console.log(
-  "Example 2:\n",
-  difference2([1, 2, 1, "abc", "3", null, 3, undefined], [2, 3])
+  'Example 2:\n',
+  difference2([1, 2, 1, 'abc', '3', null, 3, undefined], [2, 3]),
 );
 ```
 
@@ -72,11 +72,11 @@ const a = new Set([1, 2, 3]);
 const b = new Set([4, 2, 3]);
 
 const union = new Set([...a, ...b]);
-console.log("union: ", union);
+console.log('union: ', union);
 
 const intersect = new Set([...a].filter((ele) => b.has(ele)));
-console.log("intersect: ", intersect);
+console.log('intersect: ', intersect);
 
 const diff = new Set([...a].filter((ele) => !b.has(ele)));
-console.log("diff: ", diff);
+console.log('diff: ', diff);
 ```

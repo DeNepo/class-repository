@@ -3,8 +3,8 @@
 GitHub comes with built-in features for collaborating on projects and tracking
 progress. You will learn how to use most of these features and workflows through
 the homework submission process. Taking the time to understand how we handle
-homework at DeNepo will directly prepare you for working on a team using the _agile
-development_ methodology.
+homework at DeNepo will directly prepare you for working on a team using the
+_agile development_ methodology.
 
 ## Issues
 
@@ -23,8 +23,8 @@ issue.
 
 ## Labels, Milestones, Assignees
 
-Over your time with DeNepo, you and your classmates will create hundreds of issues in
-the class repository. To keep everything
+Over your time with DeNepo, you and your classmates will create hundreds of
+issues in the class repository. To keep everything
 [well-organized and searchable](https://help.github.com/en/enterprise/2.20/user/github/managing-your-work-on-github/filtering-issues-and-pull-requests)
 you are required to use
 [labels](https://help.github.com/en/github/managing-your-work-on-github/labeling-issues-and-pull-requests),

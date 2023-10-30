@@ -14,10 +14,10 @@ main roles:
   `/student-bios` where each student is expected to send a PR with a short bio
   about themselves.
 - _Modules & References_: Students and coaches can find all the study materials
-  for DeNepo by links in the README. In the _Modules_ sections you can find a link
-  to each module repository, and in the _DeNepo Links_ section you can find a link
-  to the main DeNepo Study Reference and the Home GitBook. There is also a
-  `/shared-notes` folder available if a class is motivated to build a shared
+  for DeNepo by links in the README. In the _Modules_ sections you can find a
+  link to each module repository, and in the _DeNepo Links_ section you can find
+  a link to the main DeNepo Study Reference and the Home GitBook. There is also
+  a `/shared-notes` folder available if a class is motivated to build a shared
   study guide.
 
 This folder contains the scripts and assets to manage your class repository.
@@ -26,28 +26,29 @@ coach/student, or to remove a coach/student. The only thing you'll need to do
 manually is to adjust the .json files in `/data`, everything else is managed
 with NPM scripts (all of that is explained in this README).
 
-- [Getting Started](#getting-started)
-  - [1. Setup Repository](#1-setup-repository)
-  - [2. Clone & Reset](#2-clone--reset)
-  - [3. Update Data](#3-update-data)
-  - [4. Render READMEs](#4-render-readmes)
-- [DeNepo Workflows](#DeNepo-workflows)
-  - [Contributors](#contributors)
-  - [Labels](#labels)
-  - [Milestones](#milestones)
-  - [Project Boards](#project-boards)
-    - [Deliverables, Vocabulary and Snippets](#deliverables-vocabulary-and-snippets)
-    - [Side Projects](#side-projects)
-- [Class Data](#class-data)
-  - [index.json](#indexjson)
-  - [students.json](#studentsjson)
-  - [coaches.json](#coachesjson)
-  - [modules.json](#modulesjson)
-- [NPM Scripts](#npm-scripts)
-  - [`npm run reset`](#npm-run-reset)
-  - [`npm run fetch`](#npm-run-fetch)
-  - [`npm run render`](#npm-run-render)
-  - [`npm run build`](#npm-run-build)
+- [Class Admin](#class-admin)
+  - [Getting Started](#getting-started)
+    - [1. Setup Repository](#1-setup-repository)
+    - [2. Clone \& Reset](#2-clone--reset)
+    - [3. Update Data](#3-update-data)
+    - [4. Render READMEs](#4-render-readmes)
+  - [DeNepo Workflows](#denepo-workflows)
+    - [Contributors](#contributors)
+    - [Labels](#labels)
+    - [Milestones](#milestones)
+    - [Project Boards](#project-boards)
+      - [Deliverables](#deliverables)
+      - [Side Projects](#side-projects)
+  - [Class Data](#class-data)
+    - [index.json](#indexjson)
+    - [students.json](#studentsjson)
+    - [coaches.json](#coachesjson)
+    - [modules.json](#modulesjson)
+  - [NPM Scripts](#npm-scripts)
+    - [`npm run reset`](#npm-run-reset)
+    - [`npm run fetch`](#npm-run-fetch)
+    - [`npm run render`](#npm-run-render)
+    - [`npm run build`](#npm-run-build)
 
 ---
 
@@ -58,8 +59,8 @@ GitHub directly, the 2nd & 3rd you will need to do locally:
 
 ### 1. Setup Repository
 
-> scroll down to [DeNepo Workflows](DeNepo-workflows) to learn more about setting up
-> your repo
+> scroll down to [DeNepo Workflows](DeNepo-workflows) to learn more about
+> setting up your repo
 
 Using this repo as a template you can start a new repository to host your own
 DeNepo class. After creating a new repository from this template, you will to do
@@ -88,7 +89,8 @@ some configuration:
 
 You will need to manually update the .json files in the `./data` folder. Each
 time you update the data you will need to re-render the README. If you are using
-the standard DeNepo Curriculum, you will only need to update 3 of the .json files :
+the standard DeNepo Curriculum, you will only need to update 3 of the .json
+files :
 
 - `index.json`: a small file, it's the main configuration point for all links
   that will be generated in the README file.
@@ -124,8 +126,8 @@ begins :)
 ## DeNepo Workflows
 
 DeNepo is built around GitHub project management workflows. To use the workflows
-described in [the guides](../guides) you will
-need to do some one-time-only setup.
+described in [the guides](../guides) you will need to do some one-time-only
+setup.
 
 ### Contributors
 
@@ -218,9 +220,8 @@ links in the README.
 There are separate entries for the `modulesUserName` and the `repoUserName` so
 that this class repo can be reused by anyone with a GitHub account. If you want
 to run your own DeNepo using our modules, you can leave the `modulesUserName` as
-"DeNepo" (so module links reference our repos), and update
-`repoUserName` to point to your account so that all issue filters open in your
-repo.
+"DeNepo" (so module links reference our repos), and update `repoUserName` to
+point to your account so that all issue filters open in your repo.
 
 To note: `modulesUserName` is a defaults, you can individually configure module
 links to reference any GitHub account or have their projects tracked on
@@ -237,7 +238,7 @@ different project boards. That's covered in [modules.json](#modulesjson)
   "boards": [
     {
       "name": "the board's name on github",
-      "number": 0 // the board's number on githug
+      "number": 0 // the board's number on github
     }
   ]
 }

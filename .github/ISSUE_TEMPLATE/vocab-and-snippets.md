@@ -1,7 +1,7 @@
 ---
 name: vocab or snippet
 about: A template PR for vocab and snippets
-title: "Vocabulary or Snippets: description"
+title: 'Vocabulary or Snippets: description'
 ---
 
 <!--

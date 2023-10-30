@@ -13,15 +13,15 @@ path:
 
       - **Week 1**: Chapters 0, 1, 2
         - Lesson Plan: [VSCode and
-      Git](https://github.com/DeNepo/workflows/blob/master/lesson-plans/vscode-and-git.md)
+      Git](https://github.com/DeNepo/workflows/blob/main/lesson-plans/vscode-and-git.md)
         - Deliverable: [Student Bio
-      PR](https://github.com/DeNepo/workflows/blob/master/deliverables/student-bio-pr.md)
+      PR](https://github.com/DeNepo/workflows/blob/main/deliverables/student-bio-pr.md)
 
       - **Week 2**: Chapter 3
         - Lesson Plan: [GitHub Project
-      Management](https://github.com/DeNepo/workflows/blob/master/lesson-plans/github-project-management.md)
+      Management](https://github.com/DeNepo/workflows/blob/main/lesson-plans/github-project-management.md)
         - Deliverable: [Group Intro
-      Repo](https://github.com/DeNepo/workflows/blob/master/deliverables/group-introduction-repo.md)
+      Repo](https://github.com/DeNepo/workflows/blob/main/deliverables/group-introduction-repo.md)
     url: https://github.com/DeNepo/workflows
     weeks: 2
     milestone: 2
@@ -32,28 +32,26 @@ path:
 
       - **Week 1**: Chapters 0, 1 - Following Plans
         - Lesson Plan: [Planning and
-      Collaborating](https://github.com/DeNepo/agile-development/blob/master/lesson-plans/planning-and-collaborating.md)
+      Collaborating](https://github.com/DeNepo/agile-development/blob/main/lesson-plans/planning-and-collaborating.md)
         - Deliverable: [All About
-      Trees](https://github.com/DeNepo/agile-development/blob/master/deliverables/all-about-trees)
+      Trees](https://github.com/DeNepo/agile-development/blob/main/deliverables/all-about-trees)
 
       - **Week 2**: Chapter 2 - Writing Plans
         - Lesson Plan: [User-Centered
-      Development](https://github.com/DeNepo/agile-development/blob/master/lesson-plans/user-centered-development.md)
+      Development](https://github.com/DeNepo/agile-development/blob/main/lesson-plans/user-centered-development.md)
         - Deliverable: [Loruki
-      Rebuild](https://github.com/DeNepo/agile-development/blob/master/deliverables/loruki-rebuild.md)
-
-      - **Break Week!**
+      Rebuild](https://github.com/DeNepo/agile-development/blob/main/deliverables/loruki-rebuild.md)
 
       - **Week 3**: Chapter 3 - Adapting Plans
         - Lesson Plan: [Being
-      Agile](https://github.com/DeNepo/agile-development/blob/master/lesson-plans/being-agile.md)
+      Agile](https://github.com/DeNepo/agile-development/blob/main/lesson-plans/being-agile.md)
         - Deliverable: Begin [HYF
-      Redesign](https://github.com/DeNepo/agile-development/blob/master/deliverables/hyf-redesign.md)
+      Redesign](https://github.com/DeNepo/agile-development/blob/main/deliverables/hyf-redesign.md)
 
       - **Week 4**: Chapter 3 - Adapting Plans
         - Lesson Plan: Group Project Session
         - Deliverable: Finish [HYF
-      Redesign](https://github.com/DeNepo/agile-development/blob/master/deliverables/hyf-redesign.md)
+      Redesign](https://github.com/DeNepo/agile-development/blob/main/deliverables/hyf-redesign.md)
     url: https://github.com/DeNepo/agile-development
     weeks: 4
     milestone: 3
@@ -65,15 +63,15 @@ path:
 
       - **Week 1**: Chapter 1
         - Lesson Plan: [Design
-      Thinking](https://github.com/DeNepo/ux-ui-design/blob/master/lesson-plans/design-thinking.md)
+      Thinking](https://github.com/DeNepo/ux-ui-design/blob/main/lesson-plans/design-thinking.md)
         - Deliverable: [Practical
-      Case](https://github.com/DeNepo/ux-ui-design/blob/master/deliverables/practical-case.md)
+      Case](https://github.com/DeNepo/ux-ui-design/blob/main/deliverables/practical-case.md)
 
       - **Week 2**: Chapters 2, 3
         - Lesson Plan: [Gestalt Principles &
-      Figma](https://github.com/DeNepo/ux-ui-design/blob/master/lesson-plans/gestalt-and-figma.md)
+      Figma](https://github.com/DeNepo/ux-ui-design/blob/main/lesson-plans/gestalt-and-figma.md)
         - Deliverable: [Co-Design your Home
-      Page](https://github.com/DeNepo/ux-ui-design/blob/master/deliverables/co-design-your-home-page)
+      Page](https://github.com/DeNepo/ux-ui-design/blob/main/deliverables/co-design-your-home-page)
     url: https://github.com/DeNepo/ux-ui-design
     weeks: 2
     state: open

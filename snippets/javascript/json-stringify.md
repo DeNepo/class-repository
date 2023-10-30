@@ -3,14 +3,14 @@
 Convert a JavaScript object into a string with JSON.stringify().
 
 ```js
-const obj = { name: "John", age: 30, city: "New York" };
+const obj = { name: 'John', age: 30, city: 'New York' };
 const myJSON = JSON.stringify(obj);
 ```
 
 It is also possible to stringify JavaScript arrays:
 
 ```js
-const arr = ["John", "Peter", "Sally", "Jane"];
+const arr = ['John', 'Peter', 'Sally', 'Jane'];
 const myJSON = JSON.stringify(arr);
 ```
 

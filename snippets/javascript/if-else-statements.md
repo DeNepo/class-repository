@@ -6,7 +6,7 @@
 const isMailSent = true;
 
 if (isMailSent) {
-  console.log("Mail sent to recipient");
+  console.log('Mail sent to recipient');
 }
 ```
 
@@ -21,9 +21,9 @@ execute.
 const isTaskCompleted = false;
 
 if (isTaskCompleted) {
-  console.log("Task completed");
+  console.log('Task completed');
 } else {
-  console.log("Task incomplete");
+  console.log('Task incomplete');
 }
 ```
 
@@ -36,13 +36,13 @@ else block will be executed only if the if condition fails.
 const size = 10;
 
 if (size > 100) {
-  console.log("Big");
+  console.log('Big');
 } else if (size > 20) {
-  console.log("Medium");
+  console.log('Medium');
 } else if (size > 4) {
-  console.log("Small");
+  console.log('Small');
 } else {
-  console.log("Tiny");
+  console.log('Tiny');
 }
 ```
 

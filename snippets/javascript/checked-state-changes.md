@@ -14,16 +14,16 @@
 ## js code to switch toggle to off or on
 
 ```js
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener('DOMContentLoaded', function () {
   var checkbox = document.querySelector('input[type="checkbox"]');
 
-  checkbox.addEventListener("change", function () {
+  checkbox.addEventListener('change', function () {
     if (checkbox.checked) {
       // do this
-      console.log("Checked");
+      console.log('Checked');
     } else {
       // do that
-      console.log("Not checked");
+      console.log('Not checked');
     }
   });
 });
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 .slider:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 26px;
   width: 26px;
   left: 4px;

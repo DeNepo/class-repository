@@ -7,8 +7,8 @@ DeNepo, not enough to fully prepare you for your first job.
 The more you know and the harder you work, the faster you will find yourself in
 a career you love.
 
-The more you participate and become part of the DeNepo community, the more people
-are going to be willing to help you in return.
+The more you participate and become part of the DeNepo community, the more
+people are going to be willing to help you in return.
 
 ## Sunday
 
