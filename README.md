@@ -65,14 +65,14 @@ Learn the workflows you need to develop individually and in a group.
 
 - **Week 1**: Chapters 0, 1, 2
   - Lesson Plan:
-    [VSCode and Git](https://github.com/DeNepo/workflows/blob/master/lesson-plans/vscode-and-git.md)
+    [VSCode and Git](https://github.com/DeNepo/workflows/blob/main/lesson-plans/vscode-and-git.md)
   - Deliverable:
-    [Student Bio PR](https://github.com/DeNepo/workflows/blob/master/deliverables/student-bio-pr.md)
+    [Student Bio PR](https://github.com/DeNepo/workflows/blob/main/deliverables/student-bio-pr.md)
 - **Week 2**: Chapter 3
   - Lesson Plan:
-    [GitHub Project Management](https://github.com/DeNepo/workflows/blob/master/lesson-plans/github-project-management.md)
+    [GitHub Project Management](https://github.com/DeNepo/workflows/blob/main/lesson-plans/github-project-management.md)
   - Deliverable:
-    [Group Intro Repo](https://github.com/DeNepo/workflows/blob/master/deliverables/group-introduction-repo.md)
+    [Group Intro Repo](https://github.com/DeNepo/workflows/blob/main/deliverables/group-introduction-repo.md)
 
 ### [2. Agile Development](https://github.com/DeNepo/agile-development): 4 weeks
 
@@ -88,24 +88,23 @@ Practice collaboratively planning and developing HTML/CSS websites.
 
 - **Week 1**: Chapters 0, 1 - Following Plans
   - Lesson Plan:
-    [Planning and Collaborating](https://github.com/DeNepo/agile-development/blob/master/lesson-plans/planning-and-collaborating.md)
+    [Planning and Collaborating](https://github.com/DeNepo/agile-development/blob/main/lesson-plans/planning-and-collaborating.md)
   - Deliverable:
-    [All About Trees](https://github.com/DeNepo/agile-development/blob/master/deliverables/all-about-trees)
+    [All About Trees](https://github.com/DeNepo/agile-development/blob/main/deliverables/all-about-trees)
 - **Week 2**: Chapter 2 - Writing Plans
   - Lesson Plan:
-    [User-Centered Development](https://github.com/DeNepo/agile-development/blob/master/lesson-plans/user-centered-development.md)
+    [User-Centered Development](https://github.com/DeNepo/agile-development/blob/main/lesson-plans/user-centered-development.md)
   - Deliverable:
-    [Loruki Rebuild](https://github.com/DeNepo/agile-development/blob/master/deliverables/loruki-rebuild.md)
-- **Break Week!**
+    [Loruki Rebuild](https://github.com/DeNepo/agile-development/blob/main/deliverables/loruki-rebuild.md)
 - **Week 3**: Chapter 3 - Adapting Plans
   - Lesson Plan:
-    [Being Agile](https://github.com/DeNepo/agile-development/blob/master/lesson-plans/being-agile.md)
+    [Being Agile](https://github.com/DeNepo/agile-development/blob/main/lesson-plans/being-agile.md)
   - Deliverable: Begin
-    [HYF Redesign](https://github.com/DeNepo/agile-development/blob/master/deliverables/hyf-redesign.md)
+    [HYF Redesign](https://github.com/DeNepo/agile-development/blob/main/deliverables/hyf-redesign.md)
 - **Week 4**: Chapter 3 - Adapting Plans
   - Lesson Plan: Group Project Session
   - Deliverable: Finish
-    [HYF Redesign](https://github.com/DeNepo/agile-development/blob/master/deliverables/hyf-redesign.md)
+    [HYF Redesign](https://github.com/DeNepo/agile-development/blob/main/deliverables/hyf-redesign.md)
 
 ### [3. UX/UI Design](https://github.com/DeNepo/ux-ui-design): 2 weeks
 
@@ -122,14 +121,14 @@ development process.
 
 - **Week 1**: Chapter 1
   - Lesson Plan:
-    [Design Thinking](https://github.com/DeNepo/ux-ui-design/blob/master/lesson-plans/design-thinking.md)
+    [Design Thinking](https://github.com/DeNepo/ux-ui-design/blob/main/lesson-plans/design-thinking.md)
   - Deliverable:
-    [Practical Case](https://github.com/DeNepo/ux-ui-design/blob/master/deliverables/practical-case.md)
+    [Practical Case](https://github.com/DeNepo/ux-ui-design/blob/main/deliverables/practical-case.md)
 - **Week 2**: Chapters 2, 3
   - Lesson Plan:
-    [Gestalt Principles & Figma](https://github.com/DeNepo/ux-ui-design/blob/master/lesson-plans/gestalt-and-figma.md)
+    [Gestalt Principles & Figma](https://github.com/DeNepo/ux-ui-design/blob/main/lesson-plans/gestalt-and-figma.md)
   - Deliverable:
-    [Co-Design your Home Page](https://github.com/DeNepo/ux-ui-design/blob/master/deliverables/co-design-your-home-page)
+    [Co-Design your Home Page](https://github.com/DeNepo/ux-ui-design/blob/main/deliverables/co-design-your-home-page)
 
 ### [4. Welcome to JS](https://github.com/DeNepo/welcome-to-js): 3 weeks
 
@@ -288,16 +287,16 @@ real-world problem they face, then deliver a web app to meet their needs.
 
 ## Learners
 
-| <img src="./admin/assets/avatars/<github-name>.png" height="200px" width="200px" alt="<github-name> avatar" /> | <h3 id="<github-name>"><human-name></h3><br>[<github-name>](https://github.com/<github-name>) \| [home page](https://<github-name>.github.io) \| [bio](./student-bios/<github-name>.md)<br>[check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=assignee%3A<github-name>+label%3Acheck-in) \| [deliverables](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=assignee%3A<github-name>+label%3Adeliverable) \| [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=assignee%3A<github-name>+label%3Aretro+label%3Acheck-in)<br>[opened](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=author%3A<github-name>) \| [assigned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=assignee%3A<github-name>) \| [commented](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=commenter%3A<github-name>) \| [mentioned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=mentions%3A<github-name>) |
-| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="./admin/assets/avatars/github-name.png" height="200px" width="200px" alt="github-name avatar" /> | <h3 id="github-name"><human-name></h3><br>[github-name](https://github.com/github-name) \| [home page](https://github-name.github.io) \| [bio](./student-bios/github-name.md)<br>[check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=assignee%3Agithub-name+label%3Acheck-in) \| [deliverables](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=assignee%3Agithub-name+label%3Adeliverable) \| [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=assignee%3Agithub-name+label%3Aretro+label%3Acheck-in)<br>[opened](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=author%3Agithub-name) \| [assigned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=assignee%3Agithub-name) \| [commented](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=commenter%3Agithub-name) \| [mentioned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=mentions%3Agithub-name) |
+| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <details>
 <summary><human-name>'s github stats</summary>
 <br>
 
-![<github-name> github activity](https://ghchart.rshah.org/<github-name>)
+![github-name github activity](https://ghchart.rshah.org/github-name)
 
-![<github-name> github stats](https://github-readme-stats.vercel.app/api?username=<github-name>&show_icons=true&theme=default&hide_title=true&hide_rank=true)
+![github-name github stats](https://github-readme-stats.vercel.app/api?username=github-name&show_icons=true&theme=default&hide_title=true&hide_rank=true)
 
 </details>
 <hr style="width:60%;align:center">
@@ -310,7 +309,7 @@ real-world problem they face, then deliver a web app to meet their needs.
 
 ## Coaches
 
-<table><tr><th> <img src="./admin/assets/avatars/<github-name>.png" height="200px" width="200px" alt="<github-name> avatar" /> </th><th> <h3 id="<github-name>"><human-name></h3><br><a href="https://github.com/<github-name>"><github-name></a><br><a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=author%3A<github-name>">opened</a> | <a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=assignee%3A<github-name>">assigned</a> | <a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=commenter%3A<github-name>">commented</a> | <a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=mentions%3A<github-name>">mentioned</a><br> </th></tr></table>
+<table><tr><th> <img src="./admin/assets/avatars/github-name.png" height="200px" width="200px" alt="github-name avatar" /> </th><th> <h3 id="github-name"><human-name></h3><br><a href="https://github.com/github-name">github-name</a><br><a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=author%3Agithub-name">opened</a> | <a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=assignee%3Agithub-name">assigned</a> | <a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=commenter%3Agithub-name">commented</a> | <a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=mentions%3Agithub-name">mentioned</a><br> </th></tr></table>
 
 ---
 
@@ -320,8 +319,8 @@ real-world problem they face, then deliver a web app to meet their needs.
 
 ## Admins
 
-| <img src="./admin/assets/avatars/<github-name>.png" height="200px" width="200px" alt="<github-name> avatar" /> | <h3 id="<github-name>"><human-name></h3> <br>[<github-name>](https://github.com/<github-name>)<br>[opened](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=author%3A<github-name>) \| [assigned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=assignee%3A<github-name>) \| [commented](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=commenter%3A<github-name>) \| [mentioned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=mentions%3A<github-name>) |
-| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="./admin/assets/avatars/github-name.png" height="200px" width="200px" alt="github-name avatar" /> | <h3 id="github-name"><human-name></h3> <br>[github-name](https://github.com/github-name)<br>[opened](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=author%3Agithub-name) \| [assigned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=assignee%3Agithub-name) \| [commented](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=commenter%3Agithub-name) \| [mentioned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=mentions%3Agithub-name) |
+| ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ---
 

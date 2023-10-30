@@ -31,17 +31,17 @@
 ```js
 // declare the items we want to reference in the html to variables
 // this can be done with .getElementByClass .getElementById or .querySelector
-const header = document.getElementByClass(".header");
-const menu = document.getElementByClass(".user__menu");
-const panel = document.querySelector(".panel");
-const intro = document.querySelector(".intro__text");
+const header = document.getElementByClass('.header');
+const menu = document.getElementByClass('.user__menu');
+const panel = document.querySelector('.panel');
+const intro = document.querySelector('.intro__text');
 
 // using the various classlist methods we can control their appearance
 
-header.classlist.add("pop"); // enlarge header font
-menu.classlist.remove("red"); // remove menu bg colour
-panel.classList.replace("hide", "show"); // replace tag to reveal panel
-intro.classlist.toggle("shrink"); // enlarge intro section
+header.classlist.add('pop'); // enlarge header font
+menu.classlist.remove('red'); // remove menu bg colour
+panel.classList.replace('hide', 'show'); // replace tag to reveal panel
+intro.classlist.toggle('shrink'); // enlarge intro section
 ```
 
 ```css
@@ -96,9 +96,9 @@ intro.classlist.toggle("shrink"); // enlarge intro section
 ```
 
 ```js
-const test = document.getElementById("test");
+const test = document.getElementById('test');
 console.log(test.classList.length()); // will log 3
-console.log(test.classList.contains("yellow")); // will log false
+console.log(test.classList.contains('yellow')); // will log false
 consol.log(test.classlist.item(2)); // will log green
 ```
 

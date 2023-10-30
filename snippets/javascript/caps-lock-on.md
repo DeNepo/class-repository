@@ -25,13 +25,13 @@ The following shows a warning message if you turn on the caps lock and type the
 password:
 
 ```js
-password.addEventListener("keyup", setCapsLockMessage);
+password.addEventListener('keyup', setCapsLockMessage);
 
 function setCapsLockMessage(event) {
-  if (event.getModifierState("CapsLock")) {
-    message.textContent = "Caps lock is on";
+  if (event.getModifierState('CapsLock')) {
+    message.textContent = 'Caps lock is on';
   } else {
-    message.textContent = "";
+    message.textContent = '';
   }
 }
 ```

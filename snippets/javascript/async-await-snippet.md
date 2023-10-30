@@ -26,7 +26,7 @@
  */
 
 // declare origin url for pokemon api
-const ORIGIN = "https://pokeapi.co/api/v2";
+const ORIGIN = 'https://pokeapi.co/api/v2';
 
 // declare 1-100 number randomizer
 const randomizer = Math.ceil(Math.random() * 100);
@@ -52,7 +52,7 @@ const pokemonToGibberishScrambler = async (randomId = 0) => {
 
     // beyond this point all promises are either resolved or rejected. no need for `await` anymore
     const pokeName = data.name;
-    let scrambledWord = "";
+    let scrambledWord = '';
     for (const char of pokeName) {
       const newCharNum = char.charCodeAt(0) * randomizer;
       const newChar = String.fromCharCode(newCharNum);

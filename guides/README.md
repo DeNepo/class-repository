@@ -51,8 +51,8 @@ HTML and CSS. You will continue practicing all of the skills you learned in
 _Workflows_, only now the programming languages will be more complex.
 
 ... and so on, forever! DeNepo is just the beginning. Your web will continue to
-grow after you finish studying this curriculum, you practice the skills in your web and add
-rings of new languages and technologies.
+grow after you finish studying this curriculum, you practice the skills in your
+web and add rings of new languages and technologies.
 
 <img width="600px" src="./assets/curriculum-spider-web.svg"/>
 
@@ -86,12 +86,12 @@ communication in a software project:
 
 ## You are in Control
 
-Throughout your DeNepo journey and your overall career as a programmer, you will be
-responsible for your own learning. 25-30 hours of study is just the minimum we
-suggest. The more time you spend and the better you study, the faster you will
-find yourself in a job you love. The more you participate and become part of the
-web development community, the more friends you will make, and the more people will want to
-help you.
+Throughout your DeNepo journey and your overall career as a programmer, you will
+be responsible for your own learning. 25-30 hours of study is just the minimum
+we suggest. The more time you spend and the better you study, the faster you
+will find yourself in a job you love. The more you participate and become part
+of the web development community, the more friends you will make, and the more
+people will want to help you.
 
 This is not a race against the curriculum or a race against other students. It's
 a marathon to a new career, and no one is giving you a rank.
@@ -111,5 +111,5 @@ to see if this was collaborative work or cheating:
   taking to the time to understand it, without letting them know, or without
   them explaining why they wrote what they did.
 
-You will not be getting grades on every exercise, so if you cheat you're
-only cheating yourself!
+You will not be getting grades on every exercise, so if you cheat you're only
+cheating yourself!

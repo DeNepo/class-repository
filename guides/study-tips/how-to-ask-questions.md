@@ -15,7 +15,8 @@ There are several ways to ask for help:
 - Ask your classmate or a student from another class
 - Ask in Discord (preferably in your classroom channel)
 - Approach a teacher during breaks or through Discord in a group
-- Ask your academic coordinators to connect you to a graduate or teacher for individual sessions
+- Ask your academic coordinators to connect you to a graduate or teacher for
+  individual sessions
 
 Nevertheless, we often notice students not asking for help is the prime reason
 for them dropping out of our program.

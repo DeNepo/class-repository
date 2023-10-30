@@ -24,7 +24,7 @@ let downloadTimer = setInterval(function () {
   if (timeLeft <= 0) {
     clearInterval(downloadTimer);
   }
-  document.getElementById("progressBar").value = 100 - timeLeft;
+  document.getElementById('progressBar').value = 100 - timeLeft;
   timeLeft -= 1;
 }, 100);
 ```

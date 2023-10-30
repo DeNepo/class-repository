@@ -13,16 +13,16 @@
 ### code
 
 ```javascript
-"use strict";
+'use strict';
 
-window.addEventListener("scroll", show);
+window.addEventListener('scroll', show);
 
 /* ^ AddEventListener is the name of the function. it contains two - parameters -
 an - event - which we named scroll and a -function - a thing that will happen 
 when the event is triggered the  - show - class name */
 
 function show() {
-  let show = document.querySelectorAll(".hide");
+  let show = document.querySelectorAll('.hide');
 
   /* ^ hide is a class name that will be added to the classes in html 
   after the class itself. example - class="container hide"
@@ -49,7 +49,7 @@ the element's size and position on screen */
   the bottom of the screen we must scroll before the tag changes */
 
     if (showtop < windowheight - showpoint) {
-      hide[i].classList.add("show");
+      hide[i].classList.add('show');
 
       /* ok, this is the cool part. here we set a condition, it says
       if the position/scale of the
@@ -60,7 +60,7 @@ the element's size and position on screen */
       - show - will be added to the classes with the - hide - class name
       now we can assign new properties for the - show - tag in css */
     } else {
-      hide[i].classList.remove("show");
+      hide[i].classList.remove('show');
       /* ^ this last little bit completes the condition, stating that
       if the position of the element does not pass the pixel amount we
       specified the tag will revert to - hide - and with it the css

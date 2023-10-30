@@ -2,8 +2,8 @@
 
 In this folder you and your classmates will write and share useful code
 snippets: Bash, Git HTML, CSS, JavaScript, SQL, all of it. As you work through
-DeNepo you will notice that there's certain things you do often with code, instead
-of re-inventing the wheel you can share a snippet?
+DeNepo you will notice that there's certain things you do often with code,
+instead of re-inventing the wheel you can share a snippet?
 
 Why write your own snippets when there are already so many out there? Because
 [explaining something helps you understand it](https://www.livescience.com/34000-explaining-helps-understand.html).
@@ -36,8 +36,8 @@ You can:
 
 ## Translations
 
-We came from all over the world to learn together at DeNepo. In the same
-way, we all study together in english but have our own mother tongues. You are
+We came from all over the world to learn together at DeNepo. In the same way, we
+all study together in english but have our own mother tongues. You are
 encouraged to study in any language you prefer as long as we come together and
 share our learning in english. Translating from english to your mother tongue
 can be a good way to study, and will definitely help others who are struggling
@@ -64,4 +64,5 @@ What does this look like?
   ...
 ```
 
-> Initial snippets are from [this repo](https://github.com/lab-antwerp-1/home/), thank you!
+> Initial snippets are from [this repo](https://github.com/lab-antwerp-1/home/),
+> thank you!
