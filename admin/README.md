@@ -1,6 +1,6 @@
 # Class Admin
 
-An DeNepo class repository is used to for students and coaches to share feedback
+A DeNepo class repository is used to for students and coaches to share feedback
 and keep a record of each student's progress. Your class repository will serve 3
 main roles:
 
@@ -23,7 +23,7 @@ main roles:
 This folder contains the scripts and assets to manage your class repository.
 After the initial setup, you should only need to use this folder to add a
 coach/student, or to remove a coach/student. The only thing you'll need to do
-manually is to adjust the .json files in `/data`, everything else is managed
+manually is to adjust the .yml files in `/admin`, everything else is managed
 with NPM scripts (all of that is explained in this README).
 
 - [Class Admin](#class-admin)
@@ -59,7 +59,7 @@ GitHub directly, the 2nd & 3rd you will need to do locally:
 
 ### 1. Setup Repository
 
-> scroll down to [DeNepo Workflows](DeNepo-workflows) to learn more about
+> scroll down to [DeNepo Workflows](#denepo-workflows) to learn more about
 > setting up your repo
 
 Using this repo as a template you can start a new repository to host your own
@@ -87,16 +87,16 @@ some configuration:
 > scroll down to [Class Data](#class-data) to learn more about each data file's
 > schema
 
-You will need to manually update the .json files in the `./data` folder. Each
+You will need to manually update the .yml files in the `./admin` folder. Each
 time you update the data you will need to re-render the README. If you are using
-the standard DeNepo Curriculum, you will only need to update 3 of the .json
+the standard DeNepo Curriculum, you will only need to update 3 of the .yml
 files :
 
 - `index.json`: a small file, it's the main configuration point for all links
   that will be generated in the README file.
-- `students.json`: an array of student objects that will be used to render the
+- `learners.yml`: an array of student objects that will be used to render the
   _Students_ section of the README.
-- `coaches.json`: an array of coach objects for rendering the _Coaches_ section.
+- `coaches.yml`: an array of coach objects for rendering the _Coaches_ section.
   The only difference between a coach and student object is that coaches have an
   optional "modules" property to indicate which modules they have helped to
   teach.
@@ -131,7 +131,7 @@ setup.
 
 ### Contributors
 
-Add all your coaches and students as contributors with _write_ access in the
+Add all your coaches and students as contributors with _**write**_ access in the
 repo. Without (at least) write access they will not be able to use the issues
 and project board.
 
@@ -141,8 +141,7 @@ class starts as you add/remove coaches & students.
 ### Labels
 
 DeNepo workflows and the links rendered in this repo's README rely on certain
-labels being present. You can create them all at once using whatever colors you
-like
+labels being present. You can create them all at once using whatever colors you like.
 
 - `check-in`
   - used by students to label module check-in issues
@@ -150,33 +149,26 @@ like
   - for roll-call issues created before each class
 - `chapter-1`, `chapter-2`, ... up to the longest module in your curriculum
   - used to label `roll-call` & `deliverable` issues
-  - and by students to indicate when they've updated their `check-in` issue each
-    chapter of a module
-- `checked-1`, `checked-2`, ... up to the longest module in your curriculum
-  - used by coaches to indicated a check-in has been checked
+  - and by students to indicate when they've updated their `check-in` issue each chapter of a module.
+- `checked-1`, `checked-2`, ... up to the longest module in your curriculum.
+  - used by coaches to indicated a check-in has been checked.
 - `deliverable`, `individual`, `group`
-  - used to label all deliverables issues, which will be placed on the main
-    deliverables board
+  - used to label all deliverables issues, which will be placed on the main deliverables board.
 - `vocabulary`, `snippets`, `chill-zone`
   - for issues & PRs to a folder in this repo
 
-Students will also use the `question` and `help-wanted` labels, but those come
-standard in GitHub repos.
+Students will also use the `question` and `help-wanted` labels, but those come standard in GitHub repos.
 
 ### Milestones
 
-Add one milestone for each module in your curriculum. Careful! the milestone's
-name must _exactly_ match the module's name from the `modules.json` data file.
+Add one milestone for each module in your curriculum. Careful! the milestone's name must _exactly_ match the module's name from the `modules.yml` file in `./admin` folder.
 
-If you want you can add due dates for when each module ends. This can help to
-keep track of overall progress through the course.
+If you want you can add due dates for when each module ends. This can help to keep track of overall progress through the course.
 
 ### Project Boards
 
-You will want to create a few projects boards (described in **1. Setup
-Repository**). After creating the project boards you will need to update the
-"project" property of `index.json` so the module links will filter for the
-correct project board.
+You will want to create a few projects boards (described in **[1. Setup Repository](#1-setup-repository)**). After creating the project boards you will need to update the
+"project" property of `index.json` so the module links will filter for the correct project board.
 
 #### Deliverables
 
@@ -206,11 +198,9 @@ columns in this project:
 
 ## Class Data
 
-All the data for your class is managed with these 4 .json files. it's not a
+All the data for your class is managed with these 4 .yml files. it's not a
 fancy system but it's simple to host, easy enough to maintain, and makes it easy
-to use the class repo offline. You could imagine building a CMS over this (even
-a simple one who's code lives in the `/admin` directory) but that's for another
-day.
+to use the class repo offline. You could imagine building a CMS over this (even a simple one who's code lives in the `/admin` directory) but that's for another day.
 
 ### index.json
 
@@ -244,10 +234,10 @@ different project boards. That's covered in [modules.json](#modulesjson)
 }
 ```
 
-### students.json
+### learners.yml
 
-A thumbnail intro to each student will be rendered into the README. This
-thumbnail will include:
+A thumbnail intro to each student will be rendered into the README.
+This thumbnail will include:
 
 - the student's github avatar - unless an "imgURL" exists
 - their name, rendered as a link to their student bio
@@ -256,19 +246,14 @@ thumbnail will include:
 - filters for all authored & assigned issues/PRs
 
 ```js
-{
-  "name": "the student's name",
-  "userName": "the student's GitHub username",
-  // optional:
-  "homePage": "a url", // (optional) will be used instead of `username.github.io`
-  "imgURL": "where their photo lives, will over-ride fetching their avatar from this repo"
-}
+- name: <human-name> // Learner real name
+  user: github-name // Learner GitHub username
 ```
 
-### coaches.json
+### coaches.yml
 
-Basically the same a student. A thumbnail intro to each student will be rendered
-into the README. This thumbnail will include:
+Basically the same as student. A thumbnail intro to each coach will be rendered into the README.
+This thumbnail will include:
 
 - the coach's github avatar
 - their name (not a link)
@@ -279,25 +264,14 @@ into the README. This thumbnail will include:
   array)
 
 ```js
-{
-  "name": "the coach's name",
-  "userName": "the student's GitHub username",
-  // optional
-  "homePage": "(optional) url to the coach's preferred home page (portfolio, linkedin, github, ...)",
-  "imgURL": "where their photo lives, will over-ride fetching their github avatar",
-  "modules": [
-    "the name of each module they helped with",
-    "these can be written however, they aren't used to generate any links"
-  ]
-}
+- name: <human-name> // Coach real name
+  user: github-name // Coach GitHub username
 ```
 
-### modules.json
+### modules.yml
 
-This file contains an array of module objects used to render each module's links
-in the README. Module objects have the most configuration options of all the
-data types in the class repo to give you the flexibility in how you structure
-your curriculum, host your content, and structure the assignments for each
+This file contains the module's details used to render each module's links in the README.
+Module objects have the most configuration options of all the data types in the class repo to give you the flexibility in how you structure your curriculum, host your content, and structure the assignments for each
 module.
 
 With the basic configurations only (the non-optional properties), the README
@@ -359,11 +333,10 @@ need with these NPM scripts. When you first set up your class repo you will want
 to:
 
 1. `npm run reset`
-2. update your class's .json data files
+2. update your class's .yml data files
 3. `npm run build`
 
-Later you will only need to use these scripts when you update the class data
-files:
+Later you will only need to use these scripts when you update the class data files:
 
 - _without fetching avatars_: `npm run render`, re-render the README using the
   same avatars
@@ -372,7 +345,7 @@ files:
 
 ### `npm run reset`
 
-> Caution! this script will clear out your `coaches.json` and `students.json`
+> Caution! this script will clear out your `coaches.yml` and `learners.yml`
 > data files!
 
 Run this script if you've just created your repo and are starting a new class.
